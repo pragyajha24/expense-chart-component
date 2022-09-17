@@ -2,6 +2,8 @@
 
 This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+url - https://pragyajha24.github.io/expense-chart-component/
+
 ## Table of contents
 
 - [Overview](#overview)
