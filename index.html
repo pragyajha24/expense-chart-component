@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <main class="card">
+      <section class="card-header">
+        <div class="header-text">
+          <p>My balance</p>
+          <h4 class="balance">$921.48</h4>
+        </div>
+        <img class="balance-image" src="./images/logo.svg" alt="balace logo" />
+      </section>
+
+      <section class="card-body">
+        <h4 class="card-body-heading">Spending - Last 7 days</h4>
+        <canvas id="myChart" width="450" height="250"></canvas>
+        <hr class="rounded" />
+        <div class="monthly-total">
+          <div>
+            <p class="total-text">Total this month</p>
+            <p class="total">$478.33</p>
+          </div>
+          <div>
+            <p id="total-change">+2.4%</p>
+            <p class="total-text">from last month</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

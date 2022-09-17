@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+.card {
+  height: 600px;
+  border-radius: 20px;
+}
+
+.card-header {
+  height: 100px;
+  border-radius: 10px;
+  background-color: hsl(10, 79%, 65%);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
+.header-text {
+  padding-top: 1.4rem;
+}
+
+.balance {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.card-body {
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-body-heading {
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+hr.rounded {
+  border-top: 2px solid #bbb;
+  border-radius: 5px;
+  margin: 25px;
+}
+
+.monthly-total{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:20px;
+    padding-right:20px;
+    justify-content: space-between;
+}
+
+.total-text{
+    color:#a9a4a4;
+    font-size:12px;
+}
+
+.total{
+    font-size:30px;
+    font-weight:800;
+}
+
+#total-change{
+    font-weight:900;
+}
